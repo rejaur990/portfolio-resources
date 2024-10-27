@@ -158,6 +158,13 @@ footer{
   display: flex;
   gap: 100px;
 }
+.footer-img a{
+  margin-right: 20px;
+  
+}
+.footer-img{
+  margin-top: 20px;
+}
 .footer-column{
   width: 50%;
 }
@@ -170,4 +177,27 @@ footer input[type="text"], footer input[type="email"],footer textarea{
   padding: 10px 20px;
   margin-bottom: 24px;
   border: none;
+}
+
+/* resume section styles */
+.resume-container{
+  display: flex;
+  gap: 24px;
+}
+
+.experience-sub-title{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.experience-description, .experience-sub-title{
+  color: #757575;
+}
+
+.resume hr{
+  margin: 30px 5px;
+}
+.resume-download-cv{
+  margin-top: 50px;
 }
